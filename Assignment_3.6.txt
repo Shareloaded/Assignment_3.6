@@ -1,0 +1,7 @@
+1.
+Number of data nodes needed= 600 TB/ 7TB
+			     =85.71 = 86 data nodes 
+2.
+If the block size is considered to be 100 MB (or less like iin Hadoop 1.x)then, after writing the data in only block ,it will be available for the reader .
+Only the current block in which the data is being written will bot be visible to the reader.
+So, if block size is less than or equal to 100 MB,then other persons can view the data or else we can cannot view the data like in hadoop 2.x
